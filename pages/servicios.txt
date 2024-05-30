@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--tipografías-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radley&display=swap" rel="stylesheet">
+    <!--hoja de estilos-->
+    <link href="../css/style.css" rel="stylesheet">
+    <!--navbar-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>Nuestros servicios</title>
+</head>
+<body>
+   <div class="centrado">
+    <img class= "logoEncabezado" src="../img/logoSolarEnergy.jpeg" alt="Logo">
+    <header class="encabezado">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="../img/Logo2solar_energy.jpg" alt="logo" width="100">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Nuestros servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="PreguntasFrecuentes.html">Preguntas frecuentes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+        <br>
+        <figure>
+            <img id="paneles" src="../img/paneles.jpg" alt="Paneles">
+        </figure>
+       
+
+    </header> 
+   </div>
+   <div class="centrado">
+    <main class="cuerpo">
+    
+        <h1 id="titulo_principal">Nuestros Servicios</h1>
+        <nav class="menu_servicios">
+                <ul>
+                    <li><a href="#autonomos">Sistemas autónomos o aislados</a></li>
+                    <li><a href="#interactivos">Sistemas interactivos con la red eléctrica</a></li>
+                    <li><a href="#mixtos">Sistemas Mixtos</a></li>
+                    <li><a href="#estudios">Estudios energéticos y de eficiencia energética de hogares</a></li>
+                </ul>
+        </nav>
+        <div class="objetivo">
+                <h3>Nuestro objetivo es brindarle a cada usuario la mejor solución energética para su domicilio o emprendimiento, desde el asesoramiento, la instalación y el mantenimiento de los sistemas fotovoltaicos. </h3>
+        </div>
+
+        <div class="sistemas">
+            <article class="contenedor_columnas">
+                <a id="autonomos"></a>
+                <h3 class="titulo">Sistemas autónomos o aislados:</h3>
+                <figure class="imagen_sistemas">
+                  <img src="../img/colocacion_paneles_pueblo.jpg" alt="Colocación de paneles en un entorno aislado">
+                </figure>
+                 
+                <div class="contenido_sistemas">
+                   <p class="p_servicios">Este tipo de sistemas son recomendados en zonas aisladas, o cuando se quiera independizar de la red eléctrica, la energía generada en los paneles solares se la almacena en baterías para poder disponer la electricidad cuando ya no hay sol (de noche o días nublados). Cuanta mayor sea la cantidad de baterías mayor autonomía eléctrica. El sistema fotovoltaico de este tipo, puede combinarse con otros generadores de energías, renovables o no.</p>
+                   <p class="p_servicios">Si bien es el sistema que permite mayor independencia generalmente es el más caro por el costo agregado de las baterías. En zonas aisladas, donde no existe la posibilidad de conectarse a una red eléctrica, podría ser la solución más barata y segura, silenciosa y que no perjudica el ambiente.</p>
+                   <p class="p_servicios">El sistema se compone básicamente de los paneles solares, un regulador de carga, un banco de baterías y un inversor. Los paneles solares se pueden colocar en el techado de la casa, en el suelo o donde se crea más conveniente. El límite de la energía disponible solo será económico.</p>
+                </div>
+            </article>
+            <article class="contenedor_columnas">
+                <a id="interactivos"></a>
+                <h3 class="titulo">Sistemas interactivos con la red eléctrica:</h3>
+                <figure class="imagen_sistemas">
+                   <img src="../img/colocacion_paneles_casa.jpg" alt="Colocación de paneles en un entorno urbano">
+                </figure>
+                <div class="contenido_sistemas">
+                    <p class="p_servicios">En zonas con servicio de red eléctrica, es el sistema más económico y conveniente. La electricidad generada en los paneles solares, es enviada al tablero principal de la casa, donde también ingresa la electricidad de la red. La electricidad consumida en la casa será la genera por los paneles cuando hay sol, o vendrá de la red cuando es de noche o esta nublado, si la generación de los paneles es mayor que el consumo en esas horas, esta diferencia es inyectada a la red, y el medidor restara de la factura. El diseño de estos sistemas es tal que la generación promedio es similar a los consumos, de esta forma se puede asegurar cierto grado de autogeneración eléctrica, hasta ser un generador neto de electricidad. Dado que estos sistemas no necesitan baterías, es el sistema más simple, y barato.</p>
+                    <p class="p_servicios">El sistema está compuesto por los paneles solares y el inversor. La factura que se deberá abonar a la distribuidora eléctrica dependerá del grado de autonomía que se desee, permitiendo disminuir considerablemente el monto de la factura mensual, hasta el caso de tener ingresos de dinero desde la empresa distribuidora de luz.</p>
+                </div>                    
+            </article>
+
+            <article class="sistema">
+                <a id="mixtos"></a>
+                <h3 class="titulo">Sistemas Mixtos:</h3>
+                
+                <p class="p_servicios">Este tipo de sistemas es el indicado cuando queremos utilizar la energía generada por el sol, pero teniendo la red electrica como respaldo ante un periodo prolongado sin sol.
+                Se puede limitar la inyección de energía a la red eléctrica, utilizandola solo en caso de ser necesario. Dado que no se pretende entregar energía a la red, no hay que solicitar a la compañía el medidor bidireccional, lo que puede simplificar los trámites, pero será necesaria la instalación de un banco de baterías.</p>
+               
+            </article>
+        
+            <article class="sistema">
+                <a id="estudios"></a>
+                <h3 class="titulo">Estudios energéticos y de eficiencia energética de hogares:</h3>
+                
+                <p class="p_servicios">Del estudio energético de cada casa se puede elaborar un diagnóstico preciso para lograr reducir los consumos de gas y electricidad evitando derroches innecesarios. En una casa tipo, se dilapida más del 40 o 50% de la energía que pagamos (electricidad y gas), por lo que detectar estas pérdidas es fundamental para ahorrar dienro, reducir el tamaño de los sistemas fotovoltaicos a instalar y reducir los impactos al ambiente que la industria del petróleo, gas y electricidad provocan.</p>
+            </article>
+           
+        </div>
+    </main>
+  </div>
+  <footer id="footer">
+    <h5 class="alineacionTextoFooter">Encontranos en:</h5>
+    <br>
+    <div id="footerResponsive">
+        <div class="font">
+            <div>
+                <a class="colorEnlacesFooter"
+                    href="https://www.google.com/maps/@-38.45155,-63.5989957,4z?hl=es&entry=ttu">Avenida Argentina
+                    1234, Neuquén Capital. CP 8300</a>
+                <br><br>
+                <a class="colorEnlacesFooter"
+                    href="https://terminosya.com/generador-politica-de-privacidad?gad_source=1&gclid=Cj0KCQjwxqayBhDFARIsAANWRnTlzCnIngcANDT_MWqkPTmfSADkH0YZY1Ifbcmg7NjeHRLbSOZVWW4aAhIWEALw_wcB">Políticas
+                    de Privacidad</a>
+            </div>
+        </div>
+        <br>
+        <div class="font">
+            <div class="float">
+                <a class="colorEnlacesFooter" href="https://web.whatsapp.com/"><img class="imagenIconos"
+                        src="../img/iconoWhatsapp.png" alt="icono Whatsapp">+54 299
+                    483679</a>
+                <br>
+                <a class="colorEnlacesFooter" href="https://www.gmail.com/mail/help/intl/es/about.html?iframe"><img
+                        class="imagenIconos" src="../img/iconoCorreo.png"
+                        alt="iconoCorreoElectronico">solarenergy@gmail.com</a>
+            </div>
+        </div>
+        <br>
+        <div class="font">
+            <div class="iconosFooter">
+                <a class="colorEnlacesFooter" href="https://es-la.facebook.com/index.php?m=0"><img
+                        class="elementoLinea" src="../img/iconoFacebook.png" alt="iconoFacebook"></a>
+                <a class="colorEnlacesFooter" href="https://www.instagram.com/"><img class="elementoLinea"
+                        src="../img/iconoInstagram.png" alt="icono Instagram"></a>
+                <a class="colorEnlacesFooter" href="https://www.youtube.com/"> <img class="elementoLinea"
+                        src="../img/iconoYoutube.png" alt="icono Youtube"></a>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+   
+</body>
+</html>
